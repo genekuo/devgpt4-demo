@@ -1,0 +1,5 @@
+curl -X GET http://localhost:8080/api/weather
+
+curl -X POST -H "Content-Type: application/json" 
+-d '{"city":"Paris","temperature":25.6,"description":"Cloudy"}' 
+http://localhost:8080/api/weather
